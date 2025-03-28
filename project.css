@@ -1,0 +1,105 @@
+header{
+    background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/project-background.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100vw;
+}
+
+#container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    gap: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#link{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: 200px;
+
+}
+button{
+    color:white;
+    border: none;
+    font-weight: 600;
+    background-color: #fb2056;
+    border-radius: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 150px;}
+
+#who{
+    padding: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.first{
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+}
+.line-text {
+    display: flex;
+    align-items: center;
+}
+span{font-size: large;
+font-weight: 900;}
+    
+.line-text hr {
+    border:#fb2056 solid 1.8px;
+    width: 70px;
+    margin:10px;
+}
+
+#sport{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.slider {
+    width: 80%;
+    overflow-x: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    width: 500px;
+    height: 400px;
+    align-self: center;
+}
+.slides {
+    display: flex;
+}
+
+.slides img {
+    width: 100%;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    border-radius: 10px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;}
+
+    
+
+    
+

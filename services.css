@@ -1,0 +1,164 @@
+header{
+    background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/services-bg.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100vw;
+}
+
+#container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    gap: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#link{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: 200px;
+
+}
+button{
+    color:white;
+    border: none;
+    font-weight: 600;
+    background-color: #fb2056;
+    border-radius: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 150px;}
+
+#who{
+    padding: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
+#content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   background-color: white;
+   color: black;
+   width: auto;
+   height: auto;
+   text-align: center;
+
+}
+
+#quote{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    padding-left: 100px;
+    margin: 10px;
+    opacity: 0.6;
+    width: 900px;
+}
+.upcoming{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    align-items: center;
+
+}
+
+#mo{
+    margin-right: 0px;
+}
+title{
+    color: black;
+
+}
+
+#eve{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#photo{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+}
+
+img{
+    height: 350px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+#img1{ margin: 20px;
+
+}
+
+
+#head{
+    color: black;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.text{
+    font-size: x-large;
+    width: 500px;
+    opacity: 0.6;
+}
+
+
+
+.second{
+    display: flex;
+    margin: 80px;
+    justify-content: space-evenly;
+    text-align: left;
+    align-content: center;
+    gap: 80px;
+    /* border: #fb2056 solid 2px; */
+}
+
+.second1{
+    height: 300px;
+    width: 450px;
+    font-size: 20px;
+    padding-left: 100px;
+    /* border: #fb2056 solid 2px; */
+
+}
+
+.second2{
+    height: 300px;
+    width: 450px;
+    font-size: 20px;
+    /* border: #fb2056 solid 2px; */
+}
+hr{
+    border: #fb2056 solid 2px;
+    width: 50px;
+    margin-left: 0px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;}
+
+
+
