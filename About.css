@@ -1,297 +1,46 @@
 @media (max-width:425px){
 
-    body{overflow-x: hidden;
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 100%;
-        margin: 0;}
-    header{
-        background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg");
-        background-attachment: fixed;
-        background-size:100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 5px;
-        width: 100vw;
-    }
-    
-    #container{
-        display: flex;
-        flex-direction: column; 
-        height: 20vh;
-        width: 100%;
-        gap: 5px;
-    }
-    
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    
-    #link{
-        display: flex;
-        font-size: x-large;
-        font-weight: bolder;
-        justify-content: flex-end;
-        color: blue;
-    }
-    button{
-        color:white;
-        border: none;
-        font-weight: 600;
-        background-color: #fb2056;
-        border-radius: 30px;
-        width: fit-content;
-        cursor: pointer;
-        margin-right: 150px;}
-    
-    #life{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-    }
-    
-     #who{
-        margin: 0;
-        padding-top: 100px;
-        text-align: center;
-        font-size: 100px;
-    }
-    
-    .first{
-        display: flex;
-        width: 100vw;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-content: center;
-        margin: 10px;
-    }
-    
-    .first1{
-        width: 100vw;
-        font-size: 20px;
-        text-align: center;
-    }
-    h1{text-align: left;}
-    
-    .first2{
-        /* height:100vh ; */
-        width: 100vh;
-    }
-    img{
-        height: 350px;
-        width: 95vw;
-        border-radius: 30px;
-        padding: 5px;
-    }
-    
-    .second{
-        display: flex;
-        flex-direction: column;
-        /* margin: 80px; */
-        width: 100vw;
-        justify-content: space-evenly;
-        /* align-content: center; */
-    }
-    
-    .second1{
-        /* height: 300px; */
-        width: 100vw;
-        font-size: 20px;
-        /* padding-left: 100px; */
-        text-align: center;
-    }
-    
-    .second2{
-        /* height: 300px; */
-        width: 100vw;
-        font-size: 20px;
-        text-align: center;
-    
-    }
-    hr{
-        border: #fb2056 solid 2px;
-        width: 50px;
-        margin-left: 0px;
-    }
-    
-    
-    footer{
-        position: relative;
-        width: 100vw;
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
-    }
-    
-    
-    @media (min-width:425px) and (max-width:1024px){
-    
-    body{overflow-x: hidden;
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 100%;
-        margin: 0;}
-    header{
-        background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg");
-        background-attachment: fixed;
-        background-size:100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 5px;
-        width: 100vw;
-    }
-    
-    #container{
-        display: flex;
-        flex-direction: column; 
-        height: 20vh;
-        width: 100%;
-        gap: 5px;
-    }
-    
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    
-    #link{
-        display: flex;
-        font-size: x-large;
-        font-weight: bolder;
-        justify-content: flex-end;
-        color: blue;
-    }
-    button{
-        color:white;
-        border: none;
-        font-weight: 600;
-        background-color: #fb2056;
-        border-radius: 30px;
-        width: fit-content;
-        cursor: pointer;
-        margin-right: 150px;}
-    
-    #life{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-    }
-    
-     #who{
-        margin: 0;
-        padding-top: 100px;
-        text-align: center;
-        font-size: 100px;
-    }
-    
-    .first{
-        display: flex;
-        width: 100vw;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-content: center;
-        margin: 10px;
-    }
-    
-    .first1{
-        width: 100vw;
-        font-size: 20px;
-        text-align: center;
-    }
-    h1{text-align: left;}
-    
-    .first2{
-        /* height:100vh ; */
-        width: 100vh;
-    }
-    img{
-        height: 350px;
-        width: 95vw;
-        border-radius: 30px;
-        padding: 5px;
-    }
-    
-    .second{
-        display: flex;
-        flex-direction: column;
-        /* margin: 80px; */
-        width: 100vw;
-        justify-content: space-evenly;
-        /* align-content: center; */
-    }
-    
-    .second1{
-        /* height: 300px; */
-        width: 100vw;
-        font-size: 20px;
-        /* padding-left: 100px; */
-        text-align: center;
-    }
-    
-    .second2{
-        /* height: 300px; */
-        width: 100vw;
-        font-size: 20px;
-        text-align: center;
-    
-    }
-    hr{
-        border: #fb2056 solid 2px;
-        width: 50px;
-        margin-left: 0px;
-    }
-    
-    
-    footer{
-        position: relative;
-        width: 100vw;
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
+* {
+    max-width: 100%;
+    box-sizing: border-box;
 }
     
-@media (min-width:1024px){
+
 body{overflow-x: hidden;
-margin: 0;}
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;}
 header{
     background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg");
     background-attachment: fixed;
-    background-size:cover;
+    background-size:100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    border-radius: 5px;
     width: 100vw;
 }
 
 #container{
     display: flex;
-    flex-direction: row; 
-    justify-content: flex-end;
-    align-items: center;
-    height: 60px;
+    flex-direction: column; 
+    height: 20vh;
     width: 100%;
-    gap: 40px;
+    gap: 5px;
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
-    text-align: center;
 }
 
 #link{
+    display: flex;
     font-size: x-large;
     font-weight: bolder;
-    margin-right: auto;
-    margin-left: 200px;
-
+    justify-content: flex-end;
+    color: blue;
 }
 button{
     color:white;
@@ -299,58 +48,73 @@ button{
     font-weight: 600;
     background-color: #fb2056;
     border-radius: 30px;
-    height: 30px;
+    width: fit-content;
     cursor: pointer;
     margin-right: 150px;}
 
+#life{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
  #who{
-    padding: 100px;
+    margin: 0;
+    padding-top: 100px;
     text-align: center;
     font-size: 100px;
 }
 
 .first{
     display: flex;
-    margin: 80px;
+    width: 100vw;
+    flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
+    margin: 10px;
 }
 
 .first1{
-    height: 300px;
-    width: 400px;
+    width: 100vw;
     font-size: 20px;
-    padding-left: 100px;
+    text-align: center;
 }
+h1{text-align: left;}
 
 .first2{
-    height: 300px;
-    width: 450px;
+    /* height:100vh ; */
+    width: 100vh;
 }
 img{
-    height: 300px;
-    width: 450px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8); 
+    height: 350px;
+    width: 95vw;
+    border-radius: 30px;
+    padding: 5px;
 }
 
 .second{
     display: flex;
-    margin: 80px;
+    flex-direction: column;
+    /* margin: 80px; */
+    width: 100vw;
     justify-content: space-evenly;
-    align-content: center;
+    /* align-content: center; */
 }
 
 .second1{
-    height: 300px;
-    width: 450px;
+    /* height: 300px; */
+    width: 100vw;
     font-size: 20px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
+    text-align: center;
 }
 
 .second2{
-    height: 300px;
-    width: 450px;
+    /* height: 300px; */
+    width: 100vw;
     font-size: 20px;
+    text-align: center;
 
 }
 hr{
@@ -361,13 +125,287 @@ hr{
 
 
 footer{
-    position: absolute;
-    width: 100%;
+    position: relative;
+    width: 100vw;
     background-color: black;
     color: white;
-text-align: center;
+    text-align: center;
 }
 }
 
+
+@media (min-width:425px) and (max-width:1024px){
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+
+body{overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    margin: 0;}
+header{
+    background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg");
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100vw;
+}
+
+#container{
+    display: flex;
+    flex-direction: column; 
+    height: 20vh;
+    width: 100%;
+    gap: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#link{
+    display: flex;
+    font-size: x-large;
+    font-weight: bolder;
+    justify-content: flex-end;
+    color: blue;
+}
+button{
+    color:white;
+    border: none;
+    font-weight: 600;
+    background-color: #fb2056;
+    border-radius: 30px;
+    width: fit-content;
+    cursor: pointer;
+    margin-right: 150px;}
+
+#life{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+ #who{
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.first{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 10px;
+}
+
+.first1{
+    width: 100vw;
+    font-size: 20px;
+    text-align: center;
+}
+h1{text-align: left;}
+
+.first2{
+    /* height:100vh ; */
+    width: 100vh;
+}
+img{
+    height: 350px;
+    width: 95vw;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    /* margin: 80px; */
+    width: 100vw;
+    justify-content: space-evenly;
+    /* align-content: center; */
+}
+
+.second1{
+    /* height: 300px; */
+    width: 100vw;
+    font-size: 20px;
+    /* padding-left: 100px; */
+    text-align: center;
+}
+
+.second2{
+    /* height: 300px; */
+    width: 100vw;
+    font-size: 20px;
+    text-align: center;
+
+}
+hr{
+    border: #fb2056 solid 2px;
+    width: 50px;
+    margin-left: 0px;
+}
+
+
+footer{
+    position: relative;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+}
+
+
+
+
+@media (min-width:1024px){
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+
+    body{overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+        margin: 0;}
+    header{
+        background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg");
+        background-attachment: fixed;
+        background-size:100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        width: 100vw;
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column; 
+        height: 20vh;
+        width: 100%;
+        gap: 5px;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #link{
+        display: flex;
+        font-size: x-large;
+        font-weight: bolder;
+        justify-content: flex-end;
+        color: blue;
+    }
+    button{
+        color:white;
+        border: none;
+        font-weight: 600;
+        background-color: #fb2056;
+        border-radius: 30px;
+        width: fit-content;
+        cursor: pointer;
+        margin-right: 150px;}
+    
+    #life{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    
+     #who{
+        margin: 0;
+        padding-top: 100px;
+        text-align: center;
+        font-size: 100px;
+    }
+    
+    .first{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        margin: 10px;
+    }
+    
+    .first1{
+        width: 100vw;
+        font-size: 20px;
+        text-align: center;
+    }
+    h1{text-align: left;}
+    
+    .first2{
+        /* height:100vh ; */
+        width: 100vh;
+    }
+    img{
+        height: 350px;
+        width: 95vw;
+        border-radius: 30px;
+        padding: 5px;
+    }
+    
+    .second{
+        display: flex;
+        flex-direction: column;
+        /* margin: 80px; */
+        width: 100vw;
+        justify-content: space-evenly;
+        /* align-content: center; */
+    }
+    
+    .second1{
+        /* height: 300px; */
+        width: 100vw;
+        font-size: 20px;
+        /* padding-left: 100px; */
+        text-align: center;
+    }
+    
+    .second2{
+        /* height: 300px; */
+        width: 100vw;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    hr{
+        border: #fb2056 solid 2px;
+        width: 50px;
+        margin-left: 0px;
+    }
+    
+    
+    footer{
+        position: relative;
+        width: 100vw;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    }
+    
 
 
