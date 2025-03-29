@@ -1,4 +1,9 @@
 @media (max-width:425px){
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
     body{
     overflow-x: hidden;
     display: flex;
@@ -237,6 +242,11 @@ footer{
 
 
 @media (min-width:425px) and (max-width:1024px){
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
     body{
     overflow-x: hidden;
     display: flex;
@@ -475,6 +485,11 @@ footer{
 
 
 @media (min-width:1024px){
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 body{overflow-x: hidden;
 margin: 0;}
 .moka{
