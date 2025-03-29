@@ -1,3 +1,244 @@
+@media (max-width:425px){
+    body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+}
+.moka{
+    position: relative;
+    background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg");
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+#container{
+    display: flex;
+    flex-direction: column; 
+    height: 20vh;
+    width: 100%;
+    gap: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#link{
+    display: flex;
+    font-size: x-large;
+    font-weight: bolder;
+    justify-content: flex-end;
+    color: blue;
+
+}
+#button1{
+    color:white;
+    border: none;
+    font-weight: 600;
+    background-color: #fb2056;
+    border-radius: 30px;
+    width: fit-content;
+    cursor: pointer;
+    margin-right: 150px;}
+
+.life{
+    display: flex;
+    align-self:center;
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+    margin-top: 130px;
+    padding-bottom: 30px;
+}
+h3{
+    font-size: large;
+    color: white;
+}
+
+hr{
+    color: #fb2056;
+    border: #fb2056 solid 2px;
+    width: 80px;
+}
+#headp{
+        color: white;
+        font-size: 80px;
+        font-weight: bolder;
+}
+
+#learn{
+    max-width:fit-content;
+    align-self: center;
+    /* margin-left: 170px; */
+}
+
+#content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   background-color: white;
+   color: black;
+   width: 100vw;
+   /* height: 100vh; */
+   text-align: center;
+
+}
+
+#quote{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin: 10px;
+    opacity: 0.6;
+}
+.upcoming{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    width: 100vw;
+    /* height: 100vh; */
+}
+title{
+    color: black;
+
+}
+
+#eve{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+#photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+
+}
+
+img{
+    height: 350px;
+    width: 95vw;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+
+#head{
+    color: black;
+    padding-top: 15px;
+}
+
+.text{
+    font-size: x-large;
+    opacity: 0.6;
+}
+
+button{
+    color:white;
+    border: none;
+    font-weight: 600;
+    background-color: #fb2056;
+    border-radius: 30px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+#learnbutton{
+    color:white;
+    border: none;
+    font-weight: 600;
+    background-color: #fb2056;
+    border-radius: 30px;
+    width: fit-content;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#second{
+    position: relative;
+    background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/section-bg-img.jpg");
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#secbox{
+    display: flex;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+
+}
+
+#sech{
+    color: white;
+    font-size: x-large;
+}
+#secbut{
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#third{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+}
+#box1{
+     height: fit-content;
+     width: 100vw;
+    margin: 0px;
+    font-size: 25px;
+
+}
+#box2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+footer{
+    position: relative;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 15vh;
+}
+    
+}
+
+
+@media (min-width:1024px){
+body{overflow-x: hidden;
+margin: 0;}
 .moka{
     position: relative;
     background-image: url("https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg");
@@ -219,7 +460,13 @@ footer{
     width: 100%;
     background-color: black;
     color: white;
-text-align: center;}
+text-align: center;
+}
+}
+
+
+
+
 
 
 
