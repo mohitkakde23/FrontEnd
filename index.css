@@ -2,7 +2,7 @@
 
     * {
         max-width: 100%;
-        box-sizing: border-box;
+        
     }
     body{
     overflow-x: hidden;
@@ -245,7 +245,7 @@ footer{
 
     * {
         max-width: 100%;
-        box-sizing: border-box;
+        
     }
     body{
     overflow-x: hidden;
@@ -488,7 +488,7 @@ footer{
 
     * {
         max-width: 100%;
-        box-sizing: border-box;
+        
     }
 body{overflow-x: hidden;
 margin: 0;}
